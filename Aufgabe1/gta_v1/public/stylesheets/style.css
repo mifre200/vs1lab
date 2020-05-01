@@ -1,8 +1,71 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body { 
+ padding: 50px;
+ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
 
+header{
+ background-color: grey;
+ color:white;
+ padding: 20px;
+ grid-column: 1 / 6;
+ grid-row: 1 / 2;
+ }
+
 a {
-  color: #00B7FF;
+ color:#00BFFF;
+}
+
+h2{ 
+ font-size: 170%;
+
+}
+
+main{
+ grid-column:1/6;
+ grid-row: 2/ 2;
+}
+section.tagging{ 
+ grid-column: 1;
+ grid-row: 2/ 2;
+}
+
+fieldset#tagging{
+ display:flex;
+ flex-direction:column;
+ line-height: 180%;
+}
+
+.discovery{
+ grid-column:  2;
+ grid-row: 1 / 2;
+}
+
+label{
+ font-size: 120%;
+ font-weight: bolder;
+}
+
+legend{
+ font-size: 130%;
+ font-weight: bolder;
+}
+
+input{
+ font-size: 120%;
+}
+
+mark{
+ background-color:#00BFFF;
+ color:white;
+ line-height: 1.5em;
+ font-size: 120%;
+ list-style-type:none;
+}
+
+footer{
+ background-color:grey;
+ color: white;
+ padding: 15px;  
+ grid-column: 1 / 6;
+ grid-row: 4 / 5;
 }
